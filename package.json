@@ -27,6 +27,7 @@
   "scripts": {
     "precommit": "yarn format",
     "dev": "next dev",
+    "lint": "next lint",
     "build": "next build",
     "start": "next start",
     "test": "react-scripts test",

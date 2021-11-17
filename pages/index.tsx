@@ -1,5 +1,5 @@
 //UTILTIES
-import { theme } from "../src/theme";
+import Citadel from "../lib/citadel";
 
 //THEME & COMPONENTS
 import {
@@ -14,12 +14,14 @@ import {
   Themed,
   ThemeProvider,
 } from "theme-ui";
+import { theme } from "../src/theme";
 import ColorModeSwitcher from "../src/components/layout/ColorModeSwitch";
 
 //ASSETS
 import { FaCircle, FaLock, FaUnlock } from "react-icons/fa";
+
+//MODELS
 import Online from "../src/models/Online";
-import Citadel from "../lib/citadel";
 
 interface Props {
   online: Online;
